@@ -31,7 +31,7 @@ undefined
 Me
 
 ## Github
-:octocat: kea6t
+:octocat: [${data.github}](https://github.com/${data.github})
 
 ## Tests
 ✏️ undefined
