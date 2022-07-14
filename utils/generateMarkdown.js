@@ -1,37 +1,65 @@
-const fs = require('fs');
+
 
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
 const renderLicenseBadge = license => {
-  return new Promise((resolve, reject) => {
-    fs.writeFile('./dist/README.md', license, err => {
-      // if there's an error, reject the promise and send the error to the Promise's `.catch()` method
-      if (err) {
-        reject(err);
-        // return out of the function here to make sure the Promise doesn't accidentally execute the resolve() function as well
-        return;
-      }
-      // if everything went well, resolve the promise and send the successful data to the `.then()` method
-      resolve({
-        ok: true,
-        message: 'File Created'
-      });
-    });
-  });
+  !license ?  ``: `* [License](#license)`;
 };
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
-function renderLicenseLink(license) { }
+const renderLicenseLink= license =>{
+  !license ?  ``: `* [License](#license)`; 
+}
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
-function renderLicenseSection(license) { }
+const renderLicenseSection = license => {
+  !license ?  ``: `## License ${license}`;
+}
 
 // TODO: Create a function to generate markdown for README
-function generateMarkdown(data) {
+const generateMarkdown = (data) => {
   return `# ${data.title}
 
+  ## Description
+    ${data.description}
+  ## Table of Contents
+    ${data.contents} <br />
+  - [Description](#description)
+  - [Table of Contents](#table-of-contents)
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [License](#license)
+  - [Contributing](#contributing)
+  - [Tests](#tests)
+  - [Github](#github)
+  - [Questions](#questions)
+
+## Installation
+💾 ${data.install}
+
+## Usage
+💻 ${data.usage}
+
+## License
+${data.license}
+
+## Contributing
+${data.contributing}
+
+## Github
+:octocat: ${data.github}
+
+## Tests
+✏️ ${data.tests}
+
+## Questions
+✋ ${data.questions}
+
+[email](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white) Email me with any questions: @gmail.com<br /><br />
+
+This was generated with ❤️ made by Kenneth E Asay Jr 🔥🌌🌳🦝
 `;
 }
 
