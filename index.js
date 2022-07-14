@@ -6,10 +6,10 @@ const generateMarkdown = require('./utils/generateMarkdown.js');
 const questions = [
     {
         type: 'input',
-        name: 'name',
-        message: 'What is the name of your project? (Required)',
-        validate: nameInput => {
-            if (nameInput) {
+        name: 'title',
+        message: 'What is the title of your project? (Required)',
+        validate: titleInput => {
+            if (titleInput) {
                 return true;
             } else {
                 console.log('You need to enter a project name!');
@@ -17,6 +17,7 @@ const questions = [
             }
         }
     },
+    
     {
         type: 'input',
         name: 'description',
@@ -31,7 +32,7 @@ const questions = [
         }
     },
     {
-        type: 'list',
+        type: 'input',
         name: 'contents',
         message: 'Table of contents (Required)',
         validate: contentsInput => {
@@ -106,9 +107,9 @@ const questions = [
 ];
 
 // TODO: Create a function to write README file
-const writeToFile = (fileName, data) => {
+const writeToFile = data => {
     return new Promise((resolve, reject) => {
-        fs.writeFile(fileName, data, err => {
+        fs.writeFile('./dist/README.md', data, err => {
             // if there's an error, reject the promise and send the error to the Promise's `.catch()` method
             if (err) {
                 reject(err);
