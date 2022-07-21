@@ -3,7 +3,7 @@
 ## Description
 Using node.js to generate README.md files using data from user input
 ![Screen Shot](ScreenShotReadMe.png)
-![Screen Video](ScreenRecorded.mov)
+Here's a link to the recorded video: https://watch.screencastify.com/v/XqkjgWbxa5fv7pITI55D
 
 ## Table of Contents
   - [Description](#description)
