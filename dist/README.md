@@ -1,11 +1,11 @@
 
   
-  # readme
+  # README-Generator
   ![badge](https://img.shields.io/badge/license-undefined-brightgreen)
     
 
   ## Description
-    blah
+    this project creates a README file for you
   ## Table of Contents
     undefined
   - [Description](#description)
@@ -19,27 +19,27 @@
   - [Questions](#questions)
 
 ## Installation
-💾 blah
+💾 npm install inquirer @8.2.4
 
 ## Usage
-💻 blah
+💻 using to generate readme file
 
 ## License
 MIT
 undefined
 
 ## Contributing
-me
-
-## Github
-:octocat: kea6t
+Me
 
 ## Tests
-✏️ undefined
+:pencil2: no
+
+## Github
+:octocat: [Github profile](https://github.com/kea6t)
 
 ## Questions
-✋ none
+✋ None
 
-[email](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white) Email me with any questions: @gmail.com<br /><br />
+:e-mail: Email me with any questions: k@gmail.com <br /><br />
 
 This was generated with ❤️ made by Kenneth E Asay Jr 🔥🌌🌳🦝
