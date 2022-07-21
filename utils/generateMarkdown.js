@@ -53,16 +53,16 @@ ${renderLicenseSection(data.license)}
 ## Contributing
 ${data.contributing}
 
-## Github
-:octocat: ${data.github}
-
 ## Tests
-✏️ ${data.tests}
+:pencil2: ${data.test}
+
+## Github
+:octocat: [Github profile](https://github.com/${data.github})
 
 ## Questions
 ✋ ${data.questions}
 
-[email](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white) Email me with any questions: @gmail.com<br /><br />
+:e-mail: Email me with any questions: k@gmail.com <br /><br />
 
 This was generated with ❤️ made by Kenneth E Asay Jr 🔥🌌🌳🦝
 `;

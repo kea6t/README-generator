@@ -70,6 +70,11 @@ const questions = [
     },
     {
         type: 'input',
+        name: 'test',
+        message: 'Are there tests performed?'
+    },
+    {
+        type: 'input',
         name: 'github',
         message: 'Enter your GitHub Username (Required)',
         validate: githubInput => {
@@ -83,13 +88,8 @@ const questions = [
     },
     {
         type: 'input',
-        name: 'test',
-        message: 'Are there tests performed?'
-    },
-    {
-        type: 'input',
         name: 'questions',
-        message: 'To be or not to be, that is the question?'
+        message: 'Questions?'
     }
 ];
 
