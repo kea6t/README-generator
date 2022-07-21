@@ -15,7 +15,7 @@ const renderLicenseLink= license =>{
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
 const renderLicenseSection = license => {
-  !license ?  ``: `## License`;
+  !license ?  ``: `## License ${license}`;
 }
 
 // TODO: Create a function to generate markdown for README
@@ -44,8 +44,8 @@ const generateMarkdown = (data) => {
 ## Usage
 :computer: ${data.usage}
 
-${renderLicenseSection}
-![badge](https://img.shields.io/badge/license-${renderLicenseBadge(data.license)}-brightgreen)
+${renderLicenseSection} <br />
+[badge](https://img.shields.io/badge/license-${renderLicenseBadge(data.license)}-brightgreen)
 
 ## Contributing
 ${data.contributing}
@@ -57,7 +57,7 @@ ${data.contributing}
 :octocat: [${data.github}](https://github.com/${data.github})
 
 ## Questions
-:thinking_face: ${data.questions}
+:grey_question: ${data.questions}
 
 :e-mail: Email me with any questions: k@gmail.com <br /><br />
 

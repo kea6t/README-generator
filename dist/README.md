@@ -25,21 +25,21 @@
 :computer: Homework to generate .md file
 
 license => {
-  !license ?  ``: `## License`;
-}
-![badge](https://img.shields.io/badge/license-undefined-brightgreen)
+  !license ?  ``: `## License ${license}`;
+} <br />
+[badge](https://img.shields.io/badge/license-undefined-brightgreen)
 
 ## Contributing
 Kenny
 
 ## Tests
-:pencil2: No tests
+:pencil2: No tests performed
 
 ## Github
 :octocat: [kea6t](https://github.com/kea6t)
 
 ## Questions
-:thinking_face: None
+:grey_question: None
 
 :e-mail: Email me with any questions: k@gmail.com <br /><br />
 
