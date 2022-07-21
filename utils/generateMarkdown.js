@@ -1,7 +1,9 @@
+
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
 const renderLicenseBadge = license => {
   !license ?  ``: `* [License](#license)`;
+  
 };
 
 // TODO: Create a function that returns the license link
@@ -21,7 +23,7 @@ const generateMarkdown = (data) => {
   return `
   
   # ${data.title}
-    ${renderLicenseBadge(data.license)}
+    ${renderLicenseBadge( '![badge](https://img.shields.io/badge/license-${data.license}-brightgreen)')}
 
   ## Description
     ${data.description}

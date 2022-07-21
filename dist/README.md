@@ -1,12 +1,12 @@
 
   
-  # README-generator
+  # readme
     undefined
 
   ## Description
-    readme generator
+    sure
   ## Table of Contents
-    license
+    undefined
   - [Description](#description)
   - [Table of Contents](#table-of-contents)
   - [Installation](#installation)
@@ -18,27 +18,27 @@
   - [Questions](#questions)
 
 ## Installation
-💾 Do this
+💾 blah blah
 
 ## Usage
-💻 useful
+💻 ok
 
 ## License
 Apache
 undefined
 
 ## Contributing
-Me
+me
 
 ## Github
-:octocat: [${data.github}](https://github.com/${data.github})
+:octocat: kea6t
 
 ## Tests
 ✏️ undefined
 
 ## Questions
-✋ I don't know
+✋ none
 
-https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white Email me with any questions: @gmail.com<br /><br />
+[email](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white) Email me with any questions: @gmail.com<br /><br />
 
 This was generated with ❤️ made by Kenneth E Asay Jr 🔥🌌🌳🦝

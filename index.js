@@ -33,19 +33,6 @@ const questions = [
     },
     {
         type: 'input',
-        name: 'contents',
-        message: 'Table of contents (Required)',
-        validate: contentsInput => {
-            if (contentsInput) {
-                return true;
-            } else {
-                console.log('Please provide a list of contents!');
-                return false;
-            }
-        }
-    },
-    {
-        type: 'input',
         name: 'install',
         message: 'Describe the installation of a project(Required)',
         validate: installInput => {
