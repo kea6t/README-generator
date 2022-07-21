@@ -1,44 +1,45 @@
 
   
-  # README-Generator
-  ![badge](https://img.shields.io/badge/license-undefined-brightgreen)
-    
+  # README-Generator    
 
   ## Description
-    this project creates a README file for you
+    A node.js that creates and generates a README.md file to the dist folder
+
   ## Table of Contents
-    undefined
   - [Description](#description)
   - [Table of Contents](#table-of-contents)
   - [Installation](#installation)
-  - [Usage](#usage)
-  ![badge](https://img.shields.io/badge/license-undefined-brightgreen)
+  - [Usage](#usage) <br />
+  license =>{
+  !license ?  ``: `- [License](#license)`; 
+}
   - [Contributing](#contributing)
   - [Tests](#tests)
   - [Github](#github)
   - [Questions](#questions)
 
 ## Installation
-💾 npm install inquirer @8.2.4
+:floppy_disk: npm init and then npm install inquirer@8.2.4
 
 ## Usage
-💻 using to generate readme file
+:computer: Homework to generate .md file
 
-## License
-MIT
-undefined
+license => {
+  !license ?  ``: `## License`;
+}
+![badge](https://img.shields.io/badge/license-undefined-brightgreen)
 
 ## Contributing
-Me
+Kenny
 
 ## Tests
-:pencil2: no
+:pencil2: No tests
 
 ## Github
-:octocat: [Github profile](https://github.com/kea6t)
+:octocat: [kea6t](https://github.com/kea6t)
 
 ## Questions
-✋ None
+:thinking_face: None
 
 :e-mail: Email me with any questions: k@gmail.com <br /><br />
 
