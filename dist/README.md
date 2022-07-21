@@ -3,7 +3,7 @@
   # README-Generator    
 
   ## Description
-    A node.js that creates and generates a README.md file to the dist folder
+     A node.js that creates and generates a README.md file to the dist folder
 
   ## Table of Contents
   - [Description](#description)
