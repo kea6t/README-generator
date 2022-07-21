@@ -1,30 +1,31 @@
 
   
   # readme
-    undefined
+  ![badge](https://img.shields.io/badge/license-undefined-brightgreen)
+    
 
   ## Description
-    sure
+    blah
   ## Table of Contents
     undefined
   - [Description](#description)
   - [Table of Contents](#table-of-contents)
   - [Installation](#installation)
   - [Usage](#usage)
-  undefined
+  ![badge](https://img.shields.io/badge/license-undefined-brightgreen)
   - [Contributing](#contributing)
   - [Tests](#tests)
   - [Github](#github)
   - [Questions](#questions)
 
 ## Installation
-💾 blah blah
+💾 blah
 
 ## Usage
-💻 ok
+💻 blah
 
 ## License
-Apache
+MIT
 undefined
 
 ## Contributing
