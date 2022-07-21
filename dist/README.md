@@ -39,4 +39,4 @@ Kenny
 
 :e-mail: Email me with any questions: k@gmail.com <br /><br />
 
-This was generated with ❤️ made by Kenneth E Asay Jr 🔥🌌🌳🦝
+This was generated with ❤️ made by Kenny 🔥🌌🌳🦝
