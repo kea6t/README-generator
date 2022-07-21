@@ -22,7 +22,9 @@ const renderLicenseSection = license => {
 const generateMarkdown = (data) => {
   return `
   
-  # ${data.title}    
+  # ${data.title}   
+  
+  
 
   ## Description
     ${data.description}
@@ -32,7 +34,8 @@ const generateMarkdown = (data) => {
   - [Table of Contents](#table-of-contents)
   - [Installation](#installation)
   - [Usage](#usage) <br />
-  ${renderLicenseLink(data.license)}
+  - [License](#license)
+  ${renderLicenseLink}
   - [Contributing](#contributing)
   - [Tests](#tests)
   - [Github](#github)
@@ -44,7 +47,8 @@ const generateMarkdown = (data) => {
 ## Usage
 :computer: ${data.usage}
 
-${renderLicenseSection(data.license)} <br />
+## License
+${renderLicenseSection} <br />
 ![badge](https://img.shields.io/badge/license-${renderLicenseBadge(data.license)}-brightgreen)
 
 ## Contributing
