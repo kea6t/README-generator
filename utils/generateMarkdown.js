@@ -32,7 +32,7 @@ const generateMarkdown = (data) => {
   - [Table of Contents](#table-of-contents)
   - [Installation](#installation)
   - [Usage](#usage) <br />
-  ${renderLicenseLink}
+  ${renderLicenseLink(data.license)}
   - [Contributing](#contributing)
   - [Tests](#tests)
   - [Github](#github)
@@ -44,8 +44,8 @@ const generateMarkdown = (data) => {
 ## Usage
 :computer: ${data.usage}
 
-${renderLicenseSection} <br />
-[badge](https://img.shields.io/badge/license-${renderLicenseBadge(data.license)}-brightgreen)
+${renderLicenseSection(data.license)} <br />
+![badge](https://img.shields.io/badge/license-${renderLicenseBadge(data.license)}-brightgreen)
 
 ## Contributing
 ${data.contributing}

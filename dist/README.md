@@ -10,9 +10,7 @@
   - [Table of Contents](#table-of-contents)
   - [Installation](#installation)
   - [Usage](#usage) <br />
-  license =>{
-  !license ?  ``: `- [License](#license)`; 
-}
+  undefined
   - [Contributing](#contributing)
   - [Tests](#tests)
   - [Github](#github)
@@ -24,10 +22,8 @@
 ## Usage
 :computer: Homework to generate .md file
 
-license => {
-  !license ?  ``: `## License ${license}`;
-} <br />
-[badge](https://img.shields.io/badge/license-undefined-brightgreen)
+undefined <br />
+![badge](https://img.shields.io/badge/license-undefined-brightgreen)
 
 ## Contributing
 Kenny
