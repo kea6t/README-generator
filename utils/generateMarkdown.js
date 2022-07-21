@@ -41,10 +41,10 @@ const generateMarkdown = (data) => {
   - [Questions](#questions)
 
 ## Installation
-💾 ${data.install}
+:floppy_disk: ${data.install}
 
 ## Usage
-💻 ${data.usage}
+:computer: ${data.usage}
 
 ## License
 ${data.license}
@@ -57,10 +57,10 @@ ${data.contributing}
 :pencil2: ${data.test}
 
 ## Github
-:octocat: [Github profile](https://github.com/${data.github})
+:octocat: [${data.github}](https://github.com/${data.github})
 
 ## Questions
-✋ ${data.questions}
+:thinking_face: ${data.questions}
 
 :e-mail: Email me with any questions: k@gmail.com <br /><br />
 
