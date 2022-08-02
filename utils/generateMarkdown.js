@@ -49,7 +49,7 @@ const generateMarkdown = (data) => {
 
 ## License
 ${renderLicenseSection} <br />
-![badge](https://img.shields.io/badge/license-${renderLicenseBadge(data.license)}-brightgreen)
+![badge](https://img.shields.io/badge/license-${data.license}-brightgreen)
 
 ## Contributing
 ${data.contributing}
